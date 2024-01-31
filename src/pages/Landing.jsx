@@ -1,4 +1,6 @@
-import { Stack, Container, Grid, Typography, Button } from "@mui/material";
+import { Stack, Container, Grid, Typography, Button, IconButton, Box } from "@mui/material";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function LandingPage() {
   return (
@@ -20,7 +22,14 @@ function LandingPage() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </Typography>
           <Stack justifyContent={'space-between'} direction={'row'} mt={3} mb={3}>
-            <Typography>Socials</Typography>
+            <Box>
+              <IconButton href="https://www.linkedin.com/">
+                <LinkedInIcon fontSize="large"/>
+              </IconButton>
+              <IconButton href="https://github.com/">
+                <GitHubIcon fontSize="large"/>
+              </IconButton>
+            </Box>
             <Button variant="outlined">Download CV</Button>
           </Stack>
         </Grid>

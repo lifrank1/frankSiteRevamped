@@ -49,6 +49,7 @@ const typographyChanges = {
   },
   navbar: {
     fontWeight: '600',
+    color: 'black'
   }
 }
 

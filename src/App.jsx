@@ -9,8 +9,13 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
+    /* Everything is rendered within Material-ui's ThemeProvider, which gives styling to its elements */
     <ThemeProvider theme={theme}>
+      
+      {/* CssBaseline simply imports css that normalizes all the browsers to look similarly */}
       <CssBaseline />
+
+      {/* BrowserRouter wraps the content that should change based on path or should be able to navigate between paths */}
       <BrowserRouter>
         <Navigation />
         <Routes>

@@ -39,11 +39,6 @@ function Contact() {
             </Typography>
           </Grid>
         </Grid>
-        <Typography style={{fontSize: '1.5em'}}></Typography>
-        <Typography style={{fontSize: '1.5em'}}></Typography>
-        <Typography style={{fontSize: '1.5em'}}></Typography>
-        <Typography style={{fontSize: '1.5em'}}></Typography>
-        <Typography style={{fontSize: '1.5em'}}></Typography>
       </Card>
     </Container>
   );

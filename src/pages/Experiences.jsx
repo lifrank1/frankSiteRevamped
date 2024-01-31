@@ -1,6 +1,7 @@
 import { Box, Container, Grid, Stack, Typography, useTheme } from "@mui/material";
 import PropTypes from "prop-types";
 
+// Changes to the expereinces array affects the experiences view
 const experiences = [
   {
     "title": "Title",
@@ -25,11 +26,16 @@ const experiences = [
 ];
 
 function Experience({title, description, date, flip}) {
+  // useTheme() gives this component the theme. We will use it to get the primary color
   const theme = useTheme();
   const color = theme.palette.primary[500];
+
   return (
     <Grid container direction={flip?"row-reverse":"row"} position={'relative'}>
       <Grid item xs={6}>
+        {/*
+          Box component is just a fancy div with helper attributes
+        */}
         <Box {...{[flip?"ml":"mr"]: "20px"}}>
           <Typography variant="h5" mb={4} align={flip?"left":"right"}>
             {title}
@@ -48,6 +54,9 @@ function Experience({title, description, date, flip}) {
           </Box>
         </Stack>
       </Grid>
+      {/*
+        You can apply styles to most Material-Ui components easily using sx 
+      */}
       <Box sx={{
         width: "25px",
         height: "25px",

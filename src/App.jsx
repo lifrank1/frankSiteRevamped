@@ -6,6 +6,7 @@ import CssBaseline from '@mui/material/CssBaseline'
 import theme from './theme'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Contact from './pages/Contact'
+import Projects from './pages/Projects'
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path="/" element={<LandingPage/>} />
           <Route path="/experiences" element={<ExperiencesPage/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/projects" element={<Projects/>} />
+
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

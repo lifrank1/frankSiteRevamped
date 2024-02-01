@@ -6,7 +6,9 @@ import { useState } from "react";
 const links = {
   "About Me": "/",
   "Experiences": "/experiences",
-  "Contact Me": "/contact"
+  "Contact Me": "/contact",
+  "Projects": "/projects"
+
 };
 
 function DesktopNavigation() {
@@ -25,7 +27,7 @@ function DesktopNavigation() {
                 color: 'inherit'
               }}
             >
-              Person Name
+              Frank Li
             </Typography>
           </ButtonBase>
           <Box flexGrow={1}/>

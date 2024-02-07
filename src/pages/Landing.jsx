@@ -54,13 +54,9 @@ function LandingPage() {
             Junior at the Ohio State University
           </Typography>
           <Typography variant="body1" mt={1}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Outside of academics, I enjoy playing all kinds of sports, watching
+            movies, and lifting. I love to try new things; currently, I'm
+            learning how to cook and self teaching guitar.
           </Typography>
           <Stack
             justifyContent={"space-between"}
@@ -86,6 +82,23 @@ function LandingPage() {
       </Grid>
       <hr />
       <Typography variant="h3">Classes</Typography>
+      <Typography variant="body">
+        <ul>
+          <li>Software Components 1 & 2</li>
+          <li>Discrete Structures 1 & 2</li>
+          <li>Foundations of Higher Mathematics (Proofs)</li>
+          <li>Low-Level Programming and Computer Organization 1 & 2</li>
+          <li>Probability and Statistics for Engineers</li>
+          <li>Engineering Mathematics</li>
+          <li>Introduction to Database Systems</li>
+          <li>Introduction to Artificial Intelligence</li>
+          <li>Introduction to Computer Architecture</li>
+          <li>Introduction to Digital Logic</li>
+          <li>Computer Networking and Internet Technologies</li>
+          <li>Design, Development, and Documentation of Web Applications</li>
+          <li>Linear Algebra</li>
+        </ul>
+      </Typography>
     </Container>
   );
 }

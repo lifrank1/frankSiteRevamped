@@ -9,10 +9,16 @@ function Projects() {
       <Grid container spacing={10}>
         <Grid item md={6} xs={12}>
           <Typography variant="h4" mb={2}>
-            Project A
+            GroupMe Anti Spam Bot
           </Typography>
-          <Typography variant="body1">Text here</Typography>
-          <Button href="https://lifrank.me" variant="contained">
+          <Typography variant="body1">
+            Deployed a python script in AWS Lambda to remove messages containing
+            certain keywords
+          </Typography>
+          <Button
+            href="https://github.com/lifrank1/GroupMeSpamBlocker"
+            variant="contained"
+          >
             Go to project page
           </Button>
         </Grid>

@@ -7,6 +7,7 @@ import theme from './theme'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
+import '/FLFavicon.ico'
 
 function App() {
   return (

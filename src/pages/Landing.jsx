@@ -78,7 +78,7 @@ function LandingPage() {
             </div>
             <Button
               variant="outlined"
-              href="../public/Frank_Li_Resume.pdf"
+              href="/Frank_Li_Resume.pdf"
               download="Frank_Li_Resume.pdf"
             >
               Download CV

@@ -76,7 +76,13 @@ function LandingPage() {
                 <GitHubIcon fontSize="large" />
               </IconButton>
             </div>
-            <Button variant="outlined">Download CV</Button>
+            <Button
+              variant="outlined"
+              href="../public/Frank_Li_Resume.pdf"
+              download="Frank_Li_Resume.pdf"
+            >
+              Download CV
+            </Button>
           </Stack>
         </Grid>
       </Grid>

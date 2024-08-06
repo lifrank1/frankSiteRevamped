@@ -11,28 +11,22 @@ import PropTypes from "prop-types";
 // Changes to the expereinces array affects the experiences view
 const experiences = [
   {
-    "JP Morgan Chase": "Software Engineering Intern",
+    title: "Software Engineer Intern @ JPMorganChase",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    date: "MM/DD/YY",
+      "Accelerated ETL datalake registration times by creating a Java accelerator tool reduce JSON creation times by up to 90%. Built an API using Spring boot for multi-team data registration in a centralized datalake. Deployed the API using a CI/CD pipeline utilizing Docker, Jenkins, and Kubernetes",
+    date: "06/24 - 08/24",
   },
   {
-    Fiserv: "Software Engineering Intern",
+    title: "ML Research Assistant @ OSU",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    date: "MM/DD/YY",
+      "Working in the DATUM lab under Dr. John Paparizzos. Implemented dozens of artificial intelligence classification methods to build a open source library for time series classification.",
+    date: "01/24 - Present",
   },
   {
-    title: "Title",
+    title: "Software Engineer Intern @ Fiserv",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    date: "MM/DD/YY",
-  },
-  {
-    title: "Title",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    date: "MM/DD/YY",
+      "Programmatically remediated access for over 200 S3 buckets by creating an automated workflow. Protected company integrity by validating datastreams by querying databases with daily cron jobs. Set up a lambda function to aid with automated team email communications.",
+    date: "06/23 - 08/23",
   },
 ];
 
